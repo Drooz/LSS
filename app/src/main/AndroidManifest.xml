@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.howtekno.lss.lss">
+    // ADDED INTERNET PERMISSION
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".app.loginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".app.MainActivity" />
+        <activity android:name=".app.signupActivity" />
+        <activity android:name=".app.ReportForm" />
+        <activity android:name=".app.Forum" />
+        <activity android:name=".app.Tools" />
+        <activity android:name=".app.GPA_Calculator" />
+        <activity android:name=".app.Metric_Calculator" />
+        <activity android:name=".app.teachersNotes" />
+        <activity android:name=".app.studentsNotes" />
+        <activity android:name=".template.courseList" />
+        <activity android:name=".template.contentList" />
+        <activity android:name=".app.TeachersNotesContent" />
+        <activity android:name=".app.pdfViewer" />
+        <activity android:name=".app.StudentsNotesContent" />
+        <activity android:name=".app.submitNote"></activity>
+    </application>
+
+</manifest>

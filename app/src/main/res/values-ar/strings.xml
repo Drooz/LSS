@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"برنامج مشاركة الملاحضات "</string>
+    <string name="signup">تسجيل</string>
+    <string name="signin">تسجيل الدخول</string>
+    <string name="forgetpass">نسيت كلمة المرور ؟</string>
+    <string name="usernamehint">اسم المستخدم</string>
+    <string name="passwordhint">الرقم السري</string>
+    <string name="emailhint">البريد الالكتروني</string>
+    <string name="logout">تسجيل الخرةج</string>
+    <string name="title_activity_students_notes_content">StudentsNotesContent</string>
+    <string name="submit_note">قدم اوراق</string>
+    <string name="browse">تصفح</string>
+    <string name="upload">ارفع</string>
+</resources>

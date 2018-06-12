@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Lecture Note Sharing</string>
+    <string name="signup">Sign Up</string>
+    <string name="signin">Sign In</string>
+    <string name="forgetpass">Forgot password ?</string>
+    <string name="usernamehint">Username</string>
+    <string name="passwordhint">Password</string>
+    <string name="emailhint">E-mail</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_students_notes_content">StudentsNotesContent</string>
+    <string name="submit_note">Submit Note</string>
+    <string name="browse">Browse</string>
+    <string name="upload">Upload</string>
+
+</resources>
